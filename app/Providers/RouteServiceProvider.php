@@ -19,7 +19,7 @@ class RouteServiceProvider extends ServiceProvider
     public function map()
     {
         Route::mailcoach('mailcoach');
-        Route::mailgunFeedback('mailgun-feedback');
+        //Route::mailgunFeedback('mailgun-feedback');
 
         $this
             ->mapAuthRoutes()
